@@ -1,0 +1,15 @@
+
+.divout
+          {
+            margin: auto;
+            width: 100%;
+        
+          }
+          .divout div
+          {
+            width: 150px;
+            height: 250px;
+            border: 1px solid rgb(201, 182, 182);
+            float: left;
+          
+          }
