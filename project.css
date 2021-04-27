@@ -1,15 +1,30 @@
 
+
 .divout
-          {
-            margin: auto;
-            width: 100%;
-        
-          }
-          .divout div
-          {
-            width: 150px;
-            height: 250px;
-            border: 1px solid rgb(201, 182, 182);
-            float: left;
-          
-          }
+         {
+           margin: auto 0;
+           position: absolute;
+           bottom:0px;
+           width: 1000px;
+         }
+         .divout div
+         {
+           width: 50px;
+           height: 30px;
+           border: 1px solid rgb(201, 182, 182);
+           float: left;
+         }
+          ul
+                    {
+                        width: 1100px;
+                    }
+                    ul li{ 
+                      display: inline; float: left;
+                      border: 1px solid rgb(136, 89, 89);
+                      width: 150px;
+                      line-height: 40px;
+                      height: 40px;
+                     }
+                     ul li span{
+                      padding-left: 70px;
+                     }

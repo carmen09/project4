@@ -246,17 +246,7 @@
           au.setAttribute("src","./assert/do,re/so.wav");
           au.play();
         }
-         //if(e && e.keyCode==113){ // 按 F2 
-               //要做的事情
-          /// alert("F2");
-      //  }            
-        //  if(e && e.keyCode==13){ // enter 键
-               //要做的事情
-          //   alert("ENTER");
-          //  au.setAttribute("src","1.mp3");
-          // au.pause();
-               //au.play();
-        //  }
+        
       }; 
 
 
@@ -265,11 +255,13 @@
       {
           var big = document.getElementById("divbig");
           var arr = big.children;
-          for(var i=0;i<arr.length;i++)
+          var liarr = arr[0].children;  //获取所有的LI标签 
+          for(var i=0;i<liarr.length;i++) //循环LI标签
           {
-           var id= arr[i].id;
+           var id= liarr[i].id;
            document.getElementById(id).style.backgroundColor="White";
-            arr[i].style.color="Black";
+           liarr[i].style.color="Black";
+           //alert('ASDFASDF ');//弹出我们需要输出的内容 
           }
       }
 
