@@ -1,44 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Project3</title>
+  <link rel="stylesheet" type="text/css" href="./project.css">
+
+  <script type="text/javascript" src="./project.js" defer></script>
+
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     
-    <title>Project3</title>
-    <link rel="stylesheet" type="text/css" href="./project.css">
+    <title>Project4</title>
 
-    <script type="text/javascript" src="./project.js" defer></script>
 
-    <head>
-        <title>Project4</title>
-       
-    
-  
-    </head>
-    <body>
-         <audio id="myAudio" style="display: none;" controls>
-            <!-- <source src="/i/horse.ogg" type="audio/ogg"> -->
-            <source src="./assert/do,re/do.wav" type="audio/mpeg">
-            <source src="./assert/do,re/re.wav" type="audio/mpeg">
-            <source src="./assert/do,re/mi.wav" type="audio/mpeg">
-            <source src="./assert/do,re/fa.wav" type="audio/mpeg">
-            <source src="./assert/do,re/so.wav" type="audio/mpeg">
-            <source src="./assert/do,re/la.wav" type="audio/mpeg">
-            <source src="./assert/do,re/si.wav" type="audio/mpeg">
-          </audio>
-          
-    </body>
 
-      <div id="divbig" class="divout"> 
-   <ul>
-      <li id="A"><sapn>Do</sapn></li>
-      <li id="B"><sapn>Re</sapn></li>
-      <li id="C"><sapn>Mi</sapn></li>
-      <li id="D"><sapn>Fa</sapn></li>
-      <li id="E"><sapn>So</sapn></li>
-      <li id="F"><sapn>La</sapn></li>
-      <li id="G"><sapn>Si</sapn></li>
-    </ul>
-    </div>
+  </head>
+
+<body>
+  <audio id="myAudio" style="display: none;" controls>
+    <!-- <source src="/i/horse.ogg" type="audio/ogg"> -->
+    <source src="./assert/do,re/do.wav" type="audio/mpeg">
+    <source src="./assert/do,re/re.wav" type="audio/mpeg">
+    <source src="./assert/do,re/mi.wav" type="audio/mpeg">
+    <source src="./assert/do,re/fa.wav" type="audio/mpeg">
+    <source src="./assert/do,re/so.wav" type="audio/mpeg">
+    <source src="./assert/do,re/la.wav" type="audio/mpeg">
+    <source src="./assert/do,re/si.wav" type="audio/mpeg">
+  </audio>
+
+</body>
+<div id="divimg">
+  <img id="currentKey" src="" />
+</div>
+
+<div id="divbig" class="divout">
+  <ul>
+    <li id="A">
+      <sapn>Do</sapn>
+    </li>
+    <li id="B">
+      <sapn>Re</sapn>
+    </li>
+    <li id="C">
+      <sapn>Mi</sapn>
+    </li>
+    <li id="D">
+      <sapn>Fa</sapn>
+    </li>
+    <li id="E">
+      <sapn>So</sapn>
+    </li>
+    <li id="F">
+      <sapn>La</sapn>
+    </li>
+    <li id="G">
+      <sapn>Si</sapn>
+    </li>
+  </ul>
+</div>
+<script type="text/javascript">
+  var curimg = document.getElementById("currentKey");
+  curimg.style.display="none";
+</script>
+
 </html>

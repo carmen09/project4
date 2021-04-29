@@ -1,31 +1,41 @@
-
-
 .divout
-         {
-           margin: auto 0;
-           position: absolute;
-           bottom:0px;
-           width: 1500px;
-         }
-         .divout div
-         {
-           width: 50px;
-           height: 30px;
-           border: 1px solid rgb(201, 182, 182);
-         
-         }
-          ul
-                    {
-                        width: 1500px;
-                    }
-                    ul li{ 
-                      display: inline; 
-                      float: left;
-                      border: 3px solid rgb(136, 89, 89);
-                      width: 180px;
-                      line-height: 40px;
-                      height: 300px;
-                     }
-                     ul li span{
-                      padding-left: 90px;
-                     }
+{
+  margin: auto 0;
+  position: absolute;
+  bottom:0px;
+  width: 1000px;
+  height:50px;
+}
+.divout div
+{
+  width: 50px;
+  height: 30px;
+  border: 1px solid rgb(201, 182, 182);
+  float: left;
+}
+ul
+{
+  height:50px;
+    width: 1100px;
+}
+ul li{ 
+  display: inline; float: left;
+  border: 1px solid rgb(136, 89, 89);
+  width: 150px;
+  line-height: 40px;
+  height: 40px;
+ }
+ ul li span{
+  padding-left: 70px;
+ }
+
+ #divimg{
+   position:absolute; 
+   width:1000px;
+   height: 250px;
+   bottom:300px;
+   margin:0 auto;margin-left: 20%;
+   margin-right: 20%;
+   text-align: center;
+ }
+ #divimg img{ width: 200px; height: 200px;}

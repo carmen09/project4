@@ -10,6 +10,9 @@
               au.pause();  //暂停事件
               au.setAttribute("src","./assert/do,re/do.wav");  //设置需要读取的音频文件
               au.play();  //播放
+              var imgcurr = document.getElementById("currentKey");
+              imgcurr.setAttribute("src","./assert/letter/A.png");
+              imgcurr.style.display="block";
             }
             if(e && e.keyCode==66){ // 按 B
               setcolor();
