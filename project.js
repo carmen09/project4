@@ -11,7 +11,7 @@
               au.setAttribute("src","./assert/do,re/do.wav");  //设置需要读取的音频文件
               au.play();  //播放
               var imgcurr = document.getElementById("currentKey");
-              imgcurr.setAttribute("src","./assert/letter/A.png");
+              imgcurr.setAttribute("src","A.png");
               imgcurr.style.display="block";
             }
             if(e && e.keyCode==66){ // 按 B
@@ -21,6 +21,9 @@
               au.pause();
               au.setAttribute("src","./assert/do,re/re.wav");
               au.play();
+              var imgcurr = document.getElementById("currentKey");
+              imgcurr.setAttribute("src","B.png");
+              imgcurr.style.display="block";
     
         }
             if(e && e.keyCode==67){ // 按 C
