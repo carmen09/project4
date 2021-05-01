@@ -1,19 +1,45 @@
 html, *{
   box-sizing: border-box;
 }
-
+@font-face {
+  font-family: "OpenSans";
+  src: url(./assert/OpenSans.ttf);
+}
 body {
   margin:0;
   
   
 }
 .music-box{
-  background-color: #FFD700;
+  background-color: #fff1d2;
   border-style:solid;
   width: 100%;
 	border-width:5px;
   height: 100vh;
 
+}
+
+h1{
+  font-family: OpenSans;
+  font-size: 3rem;
+}
+.wrap {
+  float: left;
+  margin: 0 20px 0 0;
+}
+.content {
+  background-color: #444;
+  width: 200px;
+  height: 250px;
+  position: absolute;
+  display: none;
+}
+
+.hitter{
+ width:500px;
+ height:500px;
+ border:1px solid #ee0000;
+ display:none;
 }
 
 .music-keys{

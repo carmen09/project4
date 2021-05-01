@@ -1,4 +1,9 @@
- //键盘事件从字母A开始
+
+
+
+
+
+//键盘事件从字母A开始
  document.onkeydown=function(event){
     var au = document.getElementById("myAudio");
           var e = event || window.event || arguments.callee.caller.arguments[0];
@@ -11,7 +16,7 @@
               au.setAttribute("src","./assert/do,re/do.wav");  //设置需要读取的音频文件
               au.play();  //播放
               var imgcurr = document.getElementById("currentKey");
-              imgcurr.setAttribute("src","A.png");
+              imgcurr.setAttribute("src","./assert/A.png");
               imgcurr.style.display="block";
             }
             if(e && e.keyCode==66){ // 按 B
@@ -22,7 +27,7 @@
               au.setAttribute("src","./assert/do,re/re.wav");
               au.play();
               var imgcurr = document.getElementById("currentKey");
-              imgcurr.setAttribute("src","B.png");
+              imgcurr.setAttribute("src","./assert/B.png");
               imgcurr.style.display="block";
     
         }
@@ -35,7 +40,7 @@
               au.setAttribute("src","./assert/do,re/mi.wav");
               au.play();
               var imgcurr = document.getElementById("currentKey");
-              imgcurr.setAttribute("src","C.png");
+              imgcurr.setAttribute("src","./assert/C.png");
               imgcurr.style.display="block";
             }
             if(e && e.keyCode==68){ // 按 D
@@ -47,7 +52,7 @@
                 au.setAttribute("src","./assert/do,re/fa.wav");
                 au.play();
                 var imgcurr = document.getElementById("currentKey");
-              imgcurr.setAttribute("src","D.png");
+              imgcurr.setAttribute("src","./assert/D.png");
               imgcurr.style.display="block";
               }
 
@@ -60,7 +65,7 @@
                 au.setAttribute("src","./assert/do,re/so.wav");
                 au.play();
                 var imgcurr = document.getElementById("currentKey");
-                imgcurr.setAttribute("src","E.png");
+                imgcurr.setAttribute("src","./assert/E.png");
                 imgcurr.style.display="block";
               }
 
@@ -74,7 +79,7 @@
                 au.setAttribute("src","./assert/do,re/la.wav");
                 au.play();
                 var imgcurr = document.getElementById("currentKey");
-                imgcurr.setAttribute("src","F.png");
+                imgcurr.setAttribute("src","./assert/F.png");
                 imgcurr.style.display="block";
               }
               if(e && e.keyCode==71){ // 按 G
@@ -86,7 +91,7 @@
                 au.setAttribute("src","./assert/do,re/si.wav");
                 au.play();
                 var imgcurr = document.getElementById("currentKey");
-                imgcurr.setAttribute("src","G.png");
+                imgcurr.setAttribute("src","./assert/G.png");
                 imgcurr.style.display="block";
               }
               if(e && e.keyCode==72){ // 按 H
@@ -97,7 +102,7 @@
                 au.setAttribute("src","./assert/do,re/do.wav");  //设置需要读取的音频文件
                 au.play();  //播放
                 var imgcurr = document.getElementById("currentKey");
-                imgcurr.setAttribute("src","H.png");
+                imgcurr.setAttribute("src","./assert/H.png");
                 imgcurr.style.display="block";
               }
 
@@ -109,7 +114,7 @@
                 au.setAttribute("src","./assert/do,re/re.wav");
                 au.play();
                 var imgcurr = document.getElementById("currentKey");
-                imgcurr.setAttribute("src","I.png");
+                imgcurr.setAttribute("src","./assert/I.png");
                 imgcurr.style.display="block";
       
           }
@@ -122,7 +127,7 @@
             au.setAttribute("src","./assert/do,re/mi.wav");
             au.play();
             var imgcurr = document.getElementById("currentKey");
-            imgcurr.setAttribute("src","J.png");
+            imgcurr.setAttribute("src","./assert/J.png");
             imgcurr.style.display="block";
           }
 
@@ -135,7 +140,7 @@
             au.setAttribute("src","./assert/do,re/fa.wav");
             au.play();
             var imgcurr = document.getElementById("currentKey");
-            imgcurr.setAttribute("src","K.png");
+            imgcurr.setAttribute("src","./assert/K.png");
             imgcurr.style.display="block";
           }
 
@@ -149,7 +154,7 @@
             au.setAttribute("src","./assert/do,re/so.wav");
             au.play();
             var imgcurr = document.getElementById("currentKey");
-            imgcurr.setAttribute("src","L.png");
+            imgcurr.setAttribute("src","./assert/L.png");
             imgcurr.style.display="block";
           }
 
@@ -163,7 +168,7 @@
             au.setAttribute("src","./assert/do,re/la.wav");
             au.play();
             var imgcurr = document.getElementById("currentKey");
-            imgcurr.setAttribute("src","M.png");
+            imgcurr.setAttribute("src","./assert/M.png");
             imgcurr.style.display="block";
           }
           if(e && e.keyCode==78){ // 按 N
@@ -175,7 +180,7 @@
             au.setAttribute("src","./assert/do,re/si.wav");
             au.play();
             var imgcurr = document.getElementById("currentKey");
-            imgcurr.setAttribute("src","N.png");
+            imgcurr.setAttribute("src","./assert/N.png");
             imgcurr.style.display="block";
           }
 
@@ -187,7 +192,7 @@
             au.setAttribute("src","./assert/do,re/do.wav");  //设置需要读取的音频文件
             au.play();  //播放
             var imgcurr = document.getElementById("currentKey");
-            imgcurr.setAttribute("src","O.png");
+            imgcurr.setAttribute("src","./assert/O.png");
             imgcurr.style.display="block";
           }
           if(e && e.keyCode==80){ // 按 p
@@ -198,7 +203,7 @@
             au.setAttribute("src","./assert/do,re/re.wav");
             au.play();
             var imgcurr = document.getElementById("currentKey");
-            imgcurr.setAttribute("src","P.png");
+            imgcurr.setAttribute("src","./assert/P.png");
             imgcurr.style.display="block";
   
       }
@@ -211,7 +216,7 @@
         au.setAttribute("src","./assert/do,re/mi.wav");
         au.play();
         var imgcurr = document.getElementById("currentKey");
-        imgcurr.setAttribute("src","Q.png");
+        imgcurr.setAttribute("src","./assert/Q.png");
         imgcurr.style.display="block";
       }
       if(e && e.keyCode==82){ // 按 r
@@ -223,7 +228,7 @@
         au.setAttribute("src","./assert/do,re/fa.wav");
         au.play();
         var imgcurr = document.getElementById("currentKey");
-        imgcurr.setAttribute("src","R.png");
+        imgcurr.setAttribute("src","./assert/R.png");
         imgcurr.style.display="block";
       }
 
@@ -236,7 +241,7 @@
         au.setAttribute("src","./assert/do,re/so.wav");
         au.play();
         var imgcurr = document.getElementById("currentKey");
-        imgcurr.setAttribute("src","S.png");
+        imgcurr.setAttribute("src","./assert/S.png");
         imgcurr.style.display="block";
       }
 
@@ -250,7 +255,7 @@
         au.setAttribute("src","./assert/do,re/la.wav");
         au.play();
         var imgcurr = document.getElementById("currentKey");
-        imgcurr.setAttribute("src","T.png");
+        imgcurr.setAttribute("src","./assert/T.png");
         imgcurr.style.display="block";
       }
       if(e && e.keyCode==85){ // 按 u
@@ -262,7 +267,7 @@
         au.setAttribute("src","./assert/do,re/si.wav");
         au.play();
         var imgcurr = document.getElementById("currentKey");
-        imgcurr.setAttribute("src","U.png");
+        imgcurr.setAttribute("src","./assert/U.png");
         imgcurr.style.display="block";
       }
       if(e && e.keyCode==86){ // 按 v
@@ -273,7 +278,7 @@
         au.setAttribute("src","./assert/do,re/do.wav");  //设置需要读取的音频文件
         au.play();  //播放
         var imgcurr = document.getElementById("currentKey");
-        imgcurr.setAttribute("src","V.png");
+        imgcurr.setAttribute("src","./assert/V.png");
         imgcurr.style.display="block";
       }
       if(e && e.keyCode==87){ // 按 w
@@ -284,7 +289,7 @@
         au.setAttribute("src","./assert/do,re/re.wav");
         au.play();
         var imgcurr = document.getElementById("currentKey");
-        imgcurr.setAttribute("src","W.png");
+        imgcurr.setAttribute("src","./assert/W.png");
         imgcurr.style.display="block";
 
   }
@@ -297,7 +302,7 @@
         au.setAttribute("src","./assert/do,re/mi.wav");
         au.play();
         var imgcurr = document.getElementById("currentKey");
-        imgcurr.setAttribute("src","X.png");
+        imgcurr.setAttribute("src","./assert/X.png");
         imgcurr.style.display="block";
       }
       if(e && e.keyCode==89){ // 按 y
@@ -309,7 +314,7 @@
           au.setAttribute("src","./assert/do,re/fa.wav");
           au.play();
           var imgcurr = document.getElementById("currentKey");
-          imgcurr.setAttribute("src","Y.png");
+          imgcurr.setAttribute("src","./assert/Y.png");
           imgcurr.style.display="block";
         }
 
@@ -322,7 +327,7 @@
           au.setAttribute("src","./assert/do,re/so.wav");
           au.play();
           var imgcurr = document.getElementById("currentKey");
-          imgcurr.setAttribute("src","Z.png");
+          imgcurr.setAttribute("src","./assert/Z.png");
           imgcurr.style.display="block";
         }
         
@@ -350,3 +355,32 @@
         cur.style.backgroundColor="Black";
         cur.style.color="White";
       }
+    
+
+      $(".btn").click(function() {
+  
+        var lable = $(".btn").text().trim();
+      
+        if(lable == "Hide") {
+          $(".btn").text("Show");
+          $(".myText").hide();
+        }
+        else {
+          $(".btn").text("Hide");
+          $(".myText").show();
+        }
+      
+        $(".but").click (function(){
+          // Close all open windows
+          $(".content").stop().slideUp(300); 
+          // Toggle this window open/close
+          $(this).next(".content").stop().slideToggle(300);
+          //hitter test// 
+          $(".hitter").show()
+        });
+        
+        $(".hitter").click (function(){
+          // Close all open windows
+          $(".content").stop().slideUp(300); 
+        });
+          });
