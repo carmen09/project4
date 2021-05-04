@@ -21,26 +21,10 @@ body {
 
 h1{
   font-family: OpenSans;
-  font-size: 3rem;
-}
-.wrap {
-  float: left;
-  margin: 0 20px 0 0;
-}
-.content {
-  background-color: #444;
-  width: 200px;
-  height: 250px;
-  position: absolute;
-  display: none;
+  font-size: 4rem;
 }
 
-.hitter{
- width:500px;
- height:500px;
- border:1px solid #ee0000;
- display:none;
-}
+
 
 .music-keys{
   display: flex;
@@ -76,4 +60,17 @@ text-align: center;
   width: 500px;
   height: 500px;
   margin: 0 auto;
+}
+#myDIV{
+  font-size: 32px;
+color: black;
+font-family: OpenSans;
+}
+
+
+.btn{
+ right: 0;
+  position: absolute;
+  top: 30%;
+
 }

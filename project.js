@@ -356,15 +356,22 @@
         cur.style.color="White";
       }
     
-
-      $(".btn").click(function() {
-        var lable = $(".btn").text().trim();
-        if(lable == "Hide") {
-          $(".btn").text("Show");
-          $(".myText").hide();
+      function myFunction() {
+        var x = document.getElementById("myDIV");
+ if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
         }
-        else {
-          $(".btn").text("Hide");
-          $(".myText").show();
-        }     
-    });
+      }
+    //   $(".btn").click(function() {
+    //     var lable = $(".btn").text().trim();
+    //     if(lable == "Hide") {
+    //       $(".btn").text("Show");
+    //       $(".myText").hide();
+    //     }
+    //     else {
+    //       $(".btn").text("Hide");
+    //       $(".myText").show();
+    //     }     
+    // });
