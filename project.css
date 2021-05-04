@@ -68,4 +68,6 @@ font-family: OpenSans;
 }
 
 
-
+.btn{
+  float: right;
+}
