@@ -358,9 +358,7 @@
     
 
       $(".btn").click(function() {
-  
         var lable = $(".btn").text().trim();
-      
         if(lable == "Hide") {
           $(".btn").text("Show");
           $(".myText").hide();
@@ -368,19 +366,5 @@
         else {
           $(".btn").text("Hide");
           $(".myText").show();
-        }
-      
-        $(".but").click (function(){
-          // Close all open windows
-          $(".content").stop().slideUp(300); 
-          // Toggle this window open/close
-          $(this).next(".content").stop().slideToggle(300);
-          //hitter test// 
-          $(".hitter").show()
-        });
-        
-        $(".hitter").click (function(){
-          // Close all open windows
-          $(".content").stop().slideUp(300); 
-        });
-          });
+        }     
+    });
