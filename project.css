@@ -5,6 +5,11 @@ html, *{
   font-family: "OpenSans";
   src: url(./assert/OpenSans.ttf);
 }
+
+@font-face {
+  font-family: "OpenSans-Regular.ttf";
+  src: url(./assert/Open_Sans/OpenSans-Regular.ttf);
+}
 body {
   margin:0;
   
@@ -55,6 +60,8 @@ h1{
   height: 300px;
   width: calc(100%/7);
   border: 3px solid #00BFFF;
+  font-family: "OpenSans-Regular.ttf";
+  font-size: 24px;
 }
 
 #divimg{
@@ -121,14 +128,18 @@ display: none;
 {
 width: 100%;
 height: 100%;
+
 }
 
 .login-panel{
   width:100%;
-  height:10%;
-  background-color:#fff;
+  height:15%;
+  background-color:#1E90FF;
   border-radius:4px;
   margin:0 auto;
   position:absolute;
   z-index: 2000;
+  font-size: 32px;
+font-family: "OpenSans-Regular.ttf";
+  
 }
