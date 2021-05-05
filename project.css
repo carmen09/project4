@@ -19,7 +19,7 @@ body {
   background-color: #fff1d2;
   border-style:solid;
   width: 100%;
-	border-width:5px;
+	border-width:10px;
   height: 100vh;
   position: relative;  
   /* cancel */
@@ -78,8 +78,10 @@ text-align: center;
   width: 500px;
   height: 500px;
   margin: 0 auto;
+
 }
 #myDIV{
+  
   font-size: 48px;
   color: #00BFFF;
 font-family: OpenSans;
@@ -89,10 +91,13 @@ line-height: 300px;
 
 
 .btn{
-  float: right;
-  width: 100px;
-  height:100px;
-  margin-right:100px;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 60px;
+  height:60px;
+  margin-right: 150px;
+
 }
 
 .blur{
