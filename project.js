@@ -1,4 +1,4 @@
-const { domainToUnicode } = require("url");
+//const { domainToUnicode } = require("url");
 
 //键盘事件从字母A开始
 document.onkeydown=function(event){
