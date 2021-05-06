@@ -81,7 +81,6 @@ text-align: center;
 
 }
 #myDIV{
-  
   font-size: 48px;
   color: #00BFFF;
 font-family: OpenSans;
@@ -147,4 +146,23 @@ height: 100%;
   font-size: 28px;
 font-family: "OpenSans-Regular.ttf";
   
+}
+@media only screen and (max-width: 375px) {
+  h1{
+    font-family: OpenSans;
+    font-size: 38px;
+  }
+  .login-panel{
+    font-size: 18px;
+  }
+  #myDIV{
+    font-size: 20px;
+  }
+  #imgeye{
+width: 80px;
+height: auto;
+position: absolute;
+margin-top: 140px;
+  }
+
 }
